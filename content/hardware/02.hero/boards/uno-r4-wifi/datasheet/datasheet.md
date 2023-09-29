@@ -513,9 +513,10 @@ Hereby, Arduino S.r.l. declares that this product is in compliance with essentia
 
 ## Change Log
 
-| Date       | **Revision** | **Changes**        |
-| ---------- | ------------ | ------------------ |
-| 19/09/2023 | 4            | Update FCC section |
-| 25/07/2023 | 3            | Update Pin Table   |
-| 30/06/2023 | 2            | Update Pinout File |
-| 08/06/2023 | 1            | First Release      |
+| Date       | **Revision** | **Changes**             |
+| ---------- | ------------ | ----------------------- |
+| 29/09/2023 | 5            | Update ESP32-S3 section |
+| 19/09/2023 | 4            | Update FCC section      |
+| 25/07/2023 | 3            | Update Pin Table        |
+| 30/06/2023 | 2            | Update Pinout File      |
+| 08/06/2023 | 1            | First Release           |
