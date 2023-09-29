@@ -158,7 +158,7 @@ The R7FA4M1AB3CFM#AA0 features:
 
 For more technical details on this microcontroller, visit the Renesas - RA4M1 series official documentation.
 
-## Wi-Fi® / Bluetooth® Module (ESP32-S3-MINI-1-N8)
+## Wi-Fi® / Bluetooth® LE Module (ESP32-S3-MINI-1-N8)
 
 The Wi-Fi® / Bluetooth® LE module on the UNO R4 WiFi is from the ESP32-S3 SoCs. It features the Xtensa® dual-core 32-bit LX7 MCU, a built-in antenna and support for 2.4 GHz bands.
 
@@ -171,6 +171,34 @@ The ESP32-S3-MINI-1-N8 features:
 * Up to 150 Mbps bit rate
 
 This module acts as a secondary MCU on the UNO R4 WiFi, and communicates with the RA4M1 MCU using a logic-level translator. Note that this module operates on 3.3 V as opposed to the RA4M1's 5 V operating voltage. 
+
+### Antenna
+
+The ESP32-S3-MINI-1-N8 **(M1)** has a PCB antenna, and has no option to connect an external antenna.
+
+### Operations
+
+The ESP32-S3-MINI-1-N8 module provides the UNO R4 WiFi board the possibility to transmit and receive signals using the Wi-Fi® and Bluetooth® Low Energy standards.
+
+#### Wi-Fi®
+
+- The center frequency range is between 2412 - 2484 MHz.
+- The typical Decibel Milliwatts (dBm) using the 802.11b specification for the Wi-Fi RF transmitter is **20.5 dBm** at **1 Mbps**. 
+- The typical sensitivity in dBm using the 802.11b specification for the Wi-Fi RF receiver is **-98.2 dBm** at **1 Mbps**.
+
+You can read more about Wi-Fi RF Characteristics at:
+- [Page 19 of the ESP32-S3-MINI-1-N8's datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf#page=19) (link to external PDF from Espressif).
+
+#### Bluetooth® Low Energy
+
+The center frequency range for the Bluetooth Low Energy radio is between 2402 - 2480 MHz.
+
+RF transmitter (TX) specifications:
+- RF power control range is between -24 dBm to 21 dBm.
+- Typical control gain step is 3 Decibels (dB).
+
+You can read more about Bluetooth® RF Characteristics at:
+- [Page 21 of the ESP32-S3-MINI-1-N8's datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf#page=21) (link to external PDF from Espressif).
 
 ### ESP Header
 
