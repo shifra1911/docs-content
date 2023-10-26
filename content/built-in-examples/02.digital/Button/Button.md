@@ -35,6 +35,8 @@ You can also wire this circuit the opposite way, with a pullup resistor keeping 
 
 If you disconnect the digital I/O pin from everything, the LED may blink erratically.  This is because the input is "floating" - that is, it will randomly return either HIGH or LOW.  That's why you need a pull-up or pull-down resistor in the circuit.
 
+NOTE: If you dont have resitor nextt to you, you can always use (instead of INPUT) INPUT_PULLUP or INPUT_PULLDOWN in your Arduino code to define a pin with integrated pull-down or pull-up resistor that is built in, to avoid external resistors.
+
 ### Schematic
 
 
